@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap");
+@import "../node_modules/remixicon/fonts/remixicon.css";
+@import "tailwindcss";
+
+@theme {
+  --font-sora: "Sora", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  --color-ui-black: #111111;
+  --color-ui-white: #ffffff;
+  --color-ui-off-white: #f5f5f5;
+  --color-ui-red: #d5303d;
+  --color-ui-orange: #f14f44;
+  --color-ui-gray: #373737;
+  --color-ui-gray-dark: #1f1f1f;
+  --color-ui-gray-darker: #171717;
+  --color-ui-gray-light: #c7c7c7;
+}
+
+body {
+  background-color: var(--color-ui-gray-dark);
+  background-image: linear-gradient(
+    var(--color-ui-black),
+    var(--color-ui-gray-darker)
+  );
+  color: var(--color-ui-white);
+  font-family: var(--font-manrope);
+}
