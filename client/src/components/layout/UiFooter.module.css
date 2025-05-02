@@ -4,6 +4,11 @@
   background-color: var(--color-ui-gray-darker);
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: var(--color-ui-gray-light);
 }
 
 .copyright::before {
