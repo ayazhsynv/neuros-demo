@@ -22,16 +22,16 @@ const UiFooter = () => {
               <p className="mb-10 font-medium">
                 <a
                   className="hover:text-ui-orange transition duration-300"
-                  href="tel:800 100 975 20 34"
+                  href="tel:123 456 789 01 23"
                 >
-                  800 100 975 20 34
+                  123 456 789 01 23
                 </a>
                 <br />
                 <a
                   className="hover:text-ui-orange transition duration-300"
-                  href="tel:+ (123) 1800-234-5678"
+                  href="tel:+ (123) 456-789-0123"
                 >
-                  + (123) 1800-234-5678
+                  + (123) 456-789-0123
                 </a>
               </p>
               <h6 className="text-lg font-bold mb-5">Email</h6>
@@ -39,7 +39,7 @@ const UiFooter = () => {
                 className="hover:text-ui-orange transition duration-300 font-medium"
                 href="mailto:neuros@mail.co"
               >
-                neuros@mail.co
+                neuros@mail.com
               </a>
             </div>
             <div className="mt-13.5 mx-3.75">
@@ -184,8 +184,41 @@ const UiFooter = () => {
           </div>
         </div>
       </div>
-      <div className="w-full pt-6 px-40.5">
-        <div className={styles.copyright}>Copyright</div>
+      <div className="w-full pt-6 px-40.5 not-md:hidden">
+        <div className={styles.copyright}>
+          <p>
+            ©
+            <Link
+              className="hover:text-ui-orange transition duration-300"
+              to="/"
+            >
+              Neuros
+            </Link>{" "}
+            2024. All rights reserved.
+          </p>
+          <p className="flex gap-3">
+            <Link
+              className="hover:text-ui-orange transition duration-300"
+              to="#"
+            >
+              Terms of use
+            </Link>
+
+            <Link
+              className="hover:text-ui-orange transition duration-300"
+              to="#"
+            >
+              Privacy
+            </Link>
+
+            <Link
+              className="hover:text-ui-orange transition duration-300"
+              to="#"
+            >
+              Environmental Policy
+            </Link>
+          </p>
+        </div>
       </div>
     </footer>
   );
