@@ -101,7 +101,7 @@ const HomeHero = () => {
         </div>
       </div>
       <div className="pt-25">
-        <div className="mx-32 px-12.5 py-2.5 flex justify-center gap-8 h-28">
+        <div className="mx-36 px-12.5 py-2.5 flex justify-center gap-8 h-28">
           <div className="px-3.75 flex items-center justify-center">
             <img src="./src/assets/HomePartners/partner1.png" alt="" />
           </div>
