@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_infos",
+  "info": {
+    "singularName": "services-info",
+    "pluralName": "services-infos",
+    "displayName": "services-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -6,7 +6,7 @@ const HomeAbout = () => {
       <div className="pt-37.5 px-10 mx-36 flex items-center justify-center">
         <div className="flex flex-col items-start justify-start p-2.5">
           <span className="font-semibold mb-0.25">/ about us /</span>
-          <h2 className=" text-6xl font-semibold mb-5">
+          <h2 className=" text-6xl font-sora  mb-5">
             Expert ai consulting for
             <br />
             transformative business
@@ -32,17 +32,17 @@ const HomeAbout = () => {
           </a>
         </div>
       </div>
-      <div className="py-37.5 mx-36 px-10">
-        <div className="p-2.5 flex gap-35">
+      <div className="py-37.5 mx-36 not-md:mx-0 px-10">
+        <div className="p-2.5 flex flex-wrap gap-35">
           <div className="flex flex-col items-start justify-start">
-            <h2 className="font-sora text-ui-gray text-[200px] relative">
+            <h2 className="font-sora text-ui-gray text-[200px] not-md:text-[100px] relative">
               95%
-              <span className=" text-[200px] text-ui-orange absolute top-2 left-2">
+              <span className=" text-[200px] not-md:text-[100px] text-ui-orange absolute top-2 left-2">
                 95%
               </span>
-              <h3 className="absolute text-4xl font-bold text-ui-white top-65">
+              <p className="absolute text-4xl font-bold text-ui-white top-65">
                 Customer Satisfaction
-              </h3>
+              </p>
             </h2>
 
             <p className="mt-3 font-semibold leading-7.5">
@@ -52,14 +52,14 @@ const HomeAbout = () => {
             </p>
           </div>
           <div className="flex flex-col items-start justify-start">
-            <h2 className="font-sora  text-[200px] text-ui-gray relative">
+            <h2 className="font-sora  text-[200px] not-md:text-[100px] text-ui-gray relative">
               $10mil
-              <span className=" text-[200px] text-ui-orange  absolute top-2 left-2">
+              <span className=" text-[200px] not-md:text-[100px] text-ui-orange  absolute top-2 left-2">
                 $10mil
               </span>
-              <h3 className="absolute text-4xl font-bold text-ui-white top-65">
+              <p className="absolute text-4xl font-bold text-ui-white top-65">
                 Cost Savings
-              </h3>
+              </p>
             </h2>
 
             <p className="mt-3 font-semibold leading-7.5">
@@ -88,7 +88,7 @@ const HomeAbout = () => {
           </h2>
         </div>
       </div>
-      <div className="flex gap-10 items-center justify-center mt-25 p-2.5">
+      <div className="flex flex-wrap gap-10 items-center justify-center mt-25 p-2.5">
         <img
           className="h-14 px-3.75"
           src="./src/assets/HomePartners/partner1.png"
