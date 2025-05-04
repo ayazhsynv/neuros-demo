@@ -3,14 +3,14 @@ import React from "react";
 const HomeHero = () => {
   return (
     <div className="flex flex-col">
-      <div className="mx-36.25 px-10 pt-18">
-        <div className="flex flex-col items-center justify-center p-2.5 font-bold text-center  text-ui-white">
-          <h1 className="text-[5rem] mb-6.25 leading-25">
+      <div className="mx-36.25 px-10 pt-60">
+        <div className="flex flex-col items-center justify-center p-2.5  text-center  text-ui-white">
+          <h1 className="font-sora text-[5rem] mb-6.25 leading-25">
             Connecting talents with the
             <br />
             Neuros startups agency
           </h1>
-          <p className="text-md mb-6.75 leading-7.5">
+          <p className="text-md mb-6.75 leading-7.5 font-semibold">
             Our startup development services are designed to accelerate your
             journey from concept to
             <br />

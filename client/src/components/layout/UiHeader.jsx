@@ -4,7 +4,7 @@ import styles from "./UiHeader.module.css";
 
 const UiHeader = () => {
   return (
-    <header>
+    <header className="fixed top-0 w-full bg-ui-black z-50">
       <div className="mx-10 my-4.5 h-[101px]  border-ui-gray border rounded-3xl flex items-center justify-between not-2xl:hidden">
         <div className="flex-1/6 max-w-42 max-h-full mx-3.75 my-5 flex items-center justify-between">
           <div className="mx-5">
