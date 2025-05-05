@@ -5,7 +5,7 @@ const HomeTeam = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="mt-37.5 flex flex-wrap">
-        <div className="max-w-150 flex flex-col items-start justify-start p-5">
+        <div className="flex-1/2 flex flex-col items-start justify-start p-5">
           <div className="mb-8.5">
             <h6 className="font-semibold mb-0.5">/ team /</h6>
             <h2 className="font-sora text-6xl leading-17">
@@ -34,7 +34,7 @@ const HomeTeam = () => {
             </Link>
           </div>
         </div>
-        <div className=" p-5">
+        <div className=" p-5 flex-1/2">
           <div className="mt-13 flex">
             <div className="p-5 gap-7 flex flex-col">
               <div className="border border-ui-gray rounded-4xl flex flex-col items-start font-sora justify-start">
