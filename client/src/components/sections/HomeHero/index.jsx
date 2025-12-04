@@ -17,7 +17,7 @@ const HomeHero = () => {
             launch, providing you with the technical expertise and strategic
             guidance needed to succeed.
           </p>
-          <div className="flex flex-row items-center justify-center gap-2.5">
+          <div className="flex flex-row items-center justify-center gap-2.5 font-semibold">
             <button className="bg-ui-orange text-ui-white rounded-4xl px-10 py-5 text-sm">
               <i className="ri-arrow-right-s-line"></i> Discover
             </button>
